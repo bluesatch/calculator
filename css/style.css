@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: whitespace;
+}
+
+header {
+    background: orange;
+    border-bottom: 2px solid #ddd;
+}
+
+h1 {
+    color: #ddd;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+.calc-body {
+    margin: 50px auto;
+    width: 450px;
+    height: 550px;
+    background: black;
+    border-radius: 5px;
+}
+
+.display {
+    margin: 10px auto;
+    width: 420px;
+    height: 100px;
+}
+
+#display {
+    display: block;
+    text-align: right;
+    font-size: 64px;
+    color: whitesmoke;
+}
+
+.button {
+    margin: 5px;
+    width: 75px;
+    height: 75px;
+    background: #ccc;
+    line-height: 2;
+    border-radius: 50%;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.operation {
+    background: orange;
+    color: #ddd;
+}
+
+.operation:hover {
+    color: black;
+}
+
+.number {
+    background: #333;
+    color: whitesmoke;
+}
+
+.number:hover {
+    color: orange;
+}
+
+#zero {
+    width: 200px;
+    border-radius: 40px;
+}
+
+.decimal {
+    background: #333;
+    color: whitesmoke;
+}
+
+.decimal:hover {
+    color: orange;
+}
